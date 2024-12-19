@@ -1,0 +1,190 @@
+body{
+  height: 3000px;
+
+
+}
+.Headbar{
+  position: fixed;
+  display: flex;
+  height:90px;
+  background-color:rgb(3, 97, 95);
+  margin:0;
+  justify-content: space-between;
+  flex-direction: row;
+  top: 0;
+  right: 0;
+  left: 0; 
+  z-index: 2;
+}
+
+
+.logo{
+  width: 258px;
+  margin-left: 10px;
+}
+.globe-icon1{
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.Hamburger{
+  width: 23px;
+}
+.Bottom-Container{
+  margin-top: 100px;
+
+}.middle-section,
+.right-section,
+.left-section{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  flex-shrink: 0;
+}
+.left-section{
+  margin-right: 10px;
+}
+button{
+  border: none;
+}
+.right-section{
+  column-gap: 30px;
+ flex-shrink: 0;
+
+}
+
+.signUp,
+.signIn{
+  font-size: 15px;
+  background-color:white ;
+  color:black;
+  padding: 8px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-bottom: 10pxpx;
+  border-radius: 13px;
+  border-width: 3px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid ;
+  cursor: pointer;
+  
+}
+
+  .Wishlist{
+   margin-right: 10px;
+   background-color: white;
+  border-radius: 25px;
+
+
+    
+  }
+  .wishlist-logo{
+    width: 28px;
+    padding-top: 5px;
+  }
+  
+.Search-Bar{
+ 
+  height:29px;
+  font-size: 18px;
+  width: 280px;
+  padding-left: 10px;
+  flex: 1;
+  border-radius:25px ;
+  border: none;
+  min-width: 10px;
+  margin-left: 15px;
+}
+.button1{
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-top: 3px;
+  background-color:rgb(255, 255, 255);
+}
+.Search-logo{
+  width: 22px;
+  padding-top: 4px;
+}
+.Logo-1{
+  margin-left: -100%;
+  border-radius: 25px;
+  margin-bottom: 1px;
+}
+.rizz{
+  flex: 1;
+}
+.container{
+  position: relative;
+  width: 70rem;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}     
+.Animation-slider{
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: auto;
+  scroll-snap-type:  x mandatory;
+  scroll-behavior: smooth;
+}
+.Animation-slider img{
+flex: 1 0 100%;
+scroll-snap-align: start;
+object-fit: cover;
+border-radius: 30px;
+}
+
+
+
+
+
+.Container-Continent1,
+.Container-Continent2,
+.Container-Continent3,
+.Container-Continent4{
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 70rem;
+  column-gap: 10px;
+  margin-left: 120px;
+margin-bottom: 30px;}
+ 
+
+
+
+.Asia1,
+.Asia2,
+.Asia3,
+.Asia4{
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px; 
+}
+.Asia1{
+  width: 253px;
+}
+ .Asia12{
+  width:255px;
+  border-radius: 20px;
+}
+.Asia13{
+  width: 260px;
+  height: 190px;
+  border-radius: 20px;
+}
+.Asia23,
+.Asia33,
+.Asia43{
+  width: 300px;
+  height: 190px;
+  border-radius: 20px;
+}
+
+
+  
+
+
+
+
