@@ -54,7 +54,7 @@ button{
 
 }
 .LoginIcon{
-  width: 45px;
+  width: 42px;
   border-radius: 30px;
   margin-top: 5px;
  
@@ -65,7 +65,7 @@ button{
   
   font-weight: bold;
   border-radius: 15px;
-  font-size: 23px;
+  font-size: 22px;
   padding-right: 10px;
   padding-left: 8px;
 
@@ -81,12 +81,6 @@ padding-left: 5px;
 .logofr{
   margin-top: 5px;
 }
-
-
-
-  
-
-
   .Wishlist{
    margin-right: 20px;
    background-color: white;
@@ -149,13 +143,7 @@ padding-left: 5px;
 flex: 1 0 100%;
 scroll-snap-align: start;
 object-fit: cover;
-border-radius: 30px;
 }
-
-
-
-
-
 .Container-Continent1,
 .Container-Continent2,
 .Container-Continent3,
@@ -168,33 +156,127 @@ border-radius: 30px;
   margin-left: 120px;
 margin-bottom: 30px;}
  
-
-
-
 .Asia1,
 .Asia2,
 .Asia3,
 .Asia4{
   width: 300px;
   object-fit: cover;
-  border-radius: 20px; 
+   
 }
 .Asia1{
   width: 253px;
 }
  .Asia12{
   width:255px;
-  border-radius: 20px;
+
 }
 .Asia13{
-  width: 260px;
-  height: 190px;
-  border-radius: 20px;
+  width: 250px;
+  height: 170px;
+ 
 }
 .Asia23,
 .Asia33,
 .Asia43{
   width: 300px;
-  height: 190px;
-  border-radius: 20px;
 }
+
+
+
+.div1,
+.div6{
+  display: inline-block;
+}
+
+.des1{
+ width: 355px;
+}
+.div4{ 
+ padding-top: 5px;
+  margin-bottom: 5px;
+
+}
+.div6{
+  margin-bottom: 6px;
+  vertical-align: bottom;
+  border: none;
+  border-radius: 60px;
+  background-color:rgb(1, 100, 78) ;
+  padding-right: 8px;
+  margin-left: 5px;
+  
+}
+
+
+
+
+.anch1{
+  display: block;
+  font-size: 25px;
+  padding-left: 12px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+.div3{
+  border: none;
+  background-color:rgb(190, 198, 121);
+  margin-top: 0px;  
+  padding: 10px;
+
+
+
+}
+
+
+.but2{
+ 
+  margin-left: 0px;
+  background-color:rgb(1, 100, 78)  ;
+  color: rgb(255, 255, 255);
+ font-size: 21px;
+ padding: 10px;
+margin-bottom: 4px;
+ padding-left: 55px;
+ padding-right:55px ;
+ border-radius: 40px;
+ margin-left:15px ;
+
+
+
+}
+.heart1{
+  width: 50px; 
+  border-radius: 60px;
+ 
+  padding-left: 10px;
+}
+.div1{ 
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+ .ssdiv{
+ border: none;
+  display: flex;
+  flex-direction: row;
+  height:280px;
+column-gap: 10px;
+margin: 10px;
+
+  
+ }
+.title{
+font-size: 40px;
+font-weight: bold;
+}
+
+
+
+  
+
+
+
+
